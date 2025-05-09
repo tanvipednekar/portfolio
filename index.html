@@ -36,6 +36,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("0YFxnMXq45WCAmGiJ"); // Replace with your actual USER_ID from EmailJS
+        })();
+    </script>
 </head>
 
 <body class="bg-gray-50">
@@ -177,13 +184,13 @@
 
                     <div class="prose prose-lg text-gray-600 space-y-6">
                         <p>
-                            I am currently pursuing my B.Tech in Computer Science from MIT Academy of Engineering, Alandi, Pune. I am a DevOps enthusiast and backend developer with a strong interest in cloud technologies, automation, and system optimization.  
+                            I am currently pursuing my B.Tech in Computer Science from MIT Academy of Engineering, Alandi, Pune. I am a DevOps enthusiast and backend developer with a strong interest in cloud technologies, automation, and system optimization.
                         </p>
                         <p>
-                            I enjoy working with Docker, Kubernetes, CI/CD pipelines, and developing scalable applications using Flask, Java Spring Boot, and AWS. My experience includes secure authentication, API integrations, and deployment automation to improve efficiency and reliability.  
+                            I enjoy working with Docker, Kubernetes, CI/CD pipelines, and developing scalable applications using Flask, Java Spring Boot, and AWS. My experience includes secure authentication, API integrations, and deployment automation to improve efficiency and reliability.
                         </p>
                         <p>
-                            I have a deep interest in art and classical singing. I find joy in music, sketching, and exploring creative ideas beyond coding.  
+                            I have a deep interest in art and classical singing. I find joy in music, sketching, and exploring creative ideas beyond coding.
                         </p>
                     </div>
                 </div>
@@ -283,7 +290,7 @@
                 <div class="flex justify-center mt-2">
                     <img src="./assets/images/ccp_image.png" alt="AWS Certification" class="w-16 h-auto rounded-lg shadow-md">
                 </div>
-                
+
                 <br>
                 <h3 class="text-xl font-semibold mb-2 text-center">AWS Certified Cloud Practitioner</h3>
                 <p class="text-gray-600 text-center mt-2"><strong>Score:</strong> 897/1000</p>
@@ -305,13 +312,13 @@
 
     <section id="techstack" class="py-18 bg-gradient-to-br from-white to-gray-50">
         <!-- Technology Stack Banner -->
-        
-    
+
+
         <div class="max-w-7xl mx-auto px-4 py-12">
             <div class="bg-white/90 backdrop-blur-lg rounded-2xl shadow-xl p-8">
                 <h3 class="text-4xl font-bold text-gray-900 mb-6 text-center">Technology Stack</h3>
-                <div class="w-20 h-2 bg-blue-600 rounded-full mb-8 mx-auto"></div> 
-        
+                <div class="w-20 h-2 bg-blue-600 rounded-full mb-8 mx-auto"></div>
+
                 <br>
                 <div class="flex justify-center items-center space-x-12 flex-wrap gap-y-4">
                     <img src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" class="h-8 rounded-lg">
@@ -326,7 +333,7 @@
             </div>
         </div>
     </section>
-    
+
 
 <!-- Projects Section with Filters -->
 <section id="projects" class="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
@@ -451,17 +458,46 @@
                 </div>
             </div>
 
+            <!-- Blood Bank Management System -->
+            <div class="group relative bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-all duration-300"
+                data-category="database">
+                <div class="relative overflow-hidden">
+                    <img src="assets/images/beat-plan-optimization-blog-banner (1).png" alt="Beat Optimisation for FMCG Sales"
+                        class="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Beat Optimisation for FMCG Sales</h3>
+                    <p class="text-gray-500 text-sm mb-2">Feb 2025 - April 2025 | Team Size: 2</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-red-50 text-red-700 rounded-full text-sm font-medium">Python</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Scikit</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">OR Tools</span>
+                        <span class="px-3 py-1 bg-yellow-50 text-blue-700 rounded-full text-sm font-medium">Frappe</span>
+                    </div>
+                    <p class="text-sm text-gray-600">
+                        Intelligent beat optimization solution that automates beat generation based on outlet priority, location clustering, visit frequency, and real-time sales data, etc
+
+                    </p>
+                    <div class="flex items-center justify-between mt-4">
+                        <a href="https://engg.elasticrun.in/datascience-saas/beat-optimization" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+                            <i data-feather="external-link" class="w-4 h-4 mr-2"></i>
+                            View Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-    
 
-   
+
+
 
 <!-- Contact Section -->
 <section id="contact" class="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
-    
+
     <div class="absolute top-20 right-0 w-96 h-96 bg-blue-100 rounded-full filter blur-3xl opacity-20"></div>
     <div class="absolute bottom-0 left-0 w-96 h-96 bg-indigo-100 rounded-full filter blur-3xl opacity-20"></div>
 
@@ -480,7 +516,7 @@
                 <div class="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                     <div class="flex items-center space-x-4">
                         <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-map-marker-alt text-gray-600 text-2xl"></i> 
+                            <i class="fas fa-map-marker-alt text-gray-600 text-2xl"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold text-gray-900">Location</h3>
@@ -488,7 +524,7 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                     <div class="flex items-center space-x-4">
                         <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -500,11 +536,11 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <div class="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                     <div class="flex items-center space-x-4">
                         <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-phone text-gray-600 text-2xl"></i> 
+                            <i class="fas fa-phone text-gray-600 text-2xl"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold text-gray-900">Phone</h3>
@@ -515,21 +551,21 @@
 
                 <!-- Social Media Icons -->
                 <div class="flex space-x-4 mt-8">
-                    <a href="https://www.linkedin.com/in/pednekartanvi/" target="_blank"  
+                    <a href="https://www.linkedin.com/in/pednekartanvi/" target="_blank"
                     class="w-12 h-12 bg-white rounded-xl shadow-lg flex items-center justify-center hover:bg-blue-50 transition-colors">
-                        <i class="fab fa-linkedin text-gray-600 text-2xl"></i> 
+                        <i class="fab fa-linkedin text-gray-600 text-2xl"></i>
                     </a>
-                    
-                    <a href="https://github.com/tanvipednekar" target="_blank" 
+
+                    <a href="https://github.com/tanvipednekar" target="_blank"
                     class="w-12 h-12 bg-white rounded-xl shadow-lg flex items-center justify-center hover:bg-blue-50 transition-colors">
-                        <i class="fab fa-github text-gray-600 text-2xl"></i> 
+                        <i class="fab fa-github text-gray-600 text-2xl"></i>
                     </a>
-                    
+
                 </div>
             </div>
 
             <!-- Right Column: Contact Form -->
-            <div class="bg-white rounded-xl shadow-lg p-8">
+            <!-- <div class="bg-white rounded-xl shadow-lg p-8">
                 <form class="space-y-6">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -543,6 +579,44 @@
                             <input type="email"
                                 class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                                 placeholder="Your email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                        <input type="text"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                            placeholder="Your subject" name="subject" required>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                        <textarea rows="6"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
+                            placeholder="Your message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" id="submitting-button"
+                        class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-4 px-6 rounded-lg hover:from-blue-700 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transform hover:-translate-y-0.5 transition-all duration-150">
+                        Send Message
+                    </button>
+                </form>
+            </div> -->
+
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <form id="contact-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                                placeholder="Your name" name="from_name" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                                placeholder="Your email" name="reply_to" required>
                         </div>
                     </div>
 
@@ -595,6 +669,19 @@
 </script>
 
 
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        emailjs.sendForm('service_6naq1kk', 'service_6naq1kk', this)
+            .then(function() {
+                alert('✅ Message sent successfully!');
+                document.getElementById('contact-form').reset();
+            }, function(error) {
+                alert('❌ Failed to send message. Please try again.');
+                console.log('FAILED...', error);
+            });
+    });
+    </script>
 
 
 
@@ -621,10 +708,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 
 
-    
+
     <!-- Font Awesome for Social Icons -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-    
+
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/script.js"></script>
 <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a31a850541d24dfeb682f07973e468f4"}'></script><!-- Cloudflare Pages Analytics -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
